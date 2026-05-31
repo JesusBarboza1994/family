@@ -530,7 +530,7 @@ export default function App() {
           <SectionTitle sub="La familia creció con patitas">La familia peluda</SectionTitle>
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             {[
-              { name: "Bruce", emoji: "🐶", age: "5 años", mentions: petStats.bruce.mentions, photo: photos.perroParque, desc: "Llegó en abril de 2021. El primer hijo peludo. 807 menciones en el chat." },
+              { name: "Bruce", emoji: "🐶", age: "5 años", mentions: petStats.bruce.mentions, photo: photos.bruceBebe, desc: "Llegó en abril de 2021. El primer hijo peludo. 807 menciones en el chat." },
               { name: "Nala", emoji: "🐱", age: "1 año", mentions: petStats.nala.mentions, photo: photos.nalaSofa, desc: "Llegó en marzo de 2025. La gatita calico que conquistó el sofá." },
               { name: "Misa", emoji: "🐱", age: "4 meses", mentions: petStats.misa.mentions, photo: photos.misaBebe, desc: "Llegó en febrero de 2026. La más pequeña de la familia." },
             ].map((pet) => (
